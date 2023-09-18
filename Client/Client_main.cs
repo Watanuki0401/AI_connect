@@ -1,12 +1,5 @@
-﻿using System;
+﻿using AI.Talk.Editor.Api;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using AI.Talk.Editor.Api;
 
 
 namespace test_AIVOICE.host {

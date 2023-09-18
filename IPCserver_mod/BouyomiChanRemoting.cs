@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using test_AIVOICE.IPC;
 
 namespace FNF.Utility {
@@ -18,7 +14,7 @@ namespace FNF.Utility {
         }
 
         public void AddTalkTask(string sTalkText) {
-            _Server.AddTalkTask(sTalkText); 
+            _Server.AddTalkTask(sTalkText);
         }
 
         public void AddTalkTask(string sTalkText, int iSpeed, int iVolume, int vType) {
@@ -37,9 +33,9 @@ namespace FNF.Utility {
             return _Server.AddTalkTask(sTalkText);
         }
 
-        public void ClearTaskTasks() {}
+        public void ClearTaskTasks() { }
 
-        public void SkipTalkTask() {}
+        public void SkipTalkTask() { }
 
         public int TalkTaskCount { get; internal set; }
 
@@ -47,7 +43,7 @@ namespace FNF.Utility {
 
         public bool NowPlaying { get; internal set; }
 
-        public bool Pause {  get; internal set; }
+        public bool Pause { get; internal set; }
 
     }
 }

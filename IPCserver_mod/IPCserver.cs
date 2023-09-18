@@ -1,10 +1,8 @@
-﻿using System;
-using System.Net;
+﻿using FNF.Utility;
+using System;
 using System.Runtime.Remoting;
 using System.Runtime.Remoting.Channels;
 using System.Runtime.Remoting.Channels.Ipc;
-using AI.Talk.Editor.Api;
-using FNF.Utility;
 using test_AIVOICE.host;
 
 namespace test_AIVOICE.IPC {
@@ -12,7 +10,7 @@ namespace test_AIVOICE.IPC {
         private readonly BouyomiChanRemoting _Object;
         private readonly IpcServerChannel _Server;
         private Client client;
-        
+
         public IpcServer(Client cliant) {
             _Object = new BouyomiChanRemoting(this);
             _Server = new IpcServerChannel("BouyomiChan");

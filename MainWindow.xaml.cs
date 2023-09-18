@@ -87,6 +87,7 @@ namespace test_AIVOICE {
 
         private void Window_Closed(object sender, EventArgs e) {
             this.Disconnect();
+            cliant.Queue.Dispose();
 
             if (_vm.ShutdownHost) {
                 Task.Factory.StartNew(() => {

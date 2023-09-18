@@ -29,7 +29,7 @@ namespace test_AIVOICE.IPC {
         }
 
         public int AddTalkTask(string sTalkText) {
-            client.SendText(sTalkText);
+            client.Addque(sTalkText);
             return 0;
         }
     }

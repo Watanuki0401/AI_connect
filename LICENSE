@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2023 Watanuki0401
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+A.I.VOICE Editor API利用規約
+
+第１条（目的）
+本A.I.VOICE Editor API利用規約（以下「本規約」といいます）は、株式会社エーアイ（以下「当社」といいます）が提供する「A.I.VOICE」シリーズ製品（以下「A.I.VOICE製品」といいます）の拡張機能として提供されるA.I.VOICE Editor API機能（以下「本API」といいます）をお客様が使用する条件を定めるものです。
+第２条（契約の成立）
+１．お客様は、あらかじめA.I.VOICE製品の正当なライセンスを有した上で、A.I.VOICE製品のエンドユーザー使用許諾契約書（以下「A.I.VOICE製品EULA」といいます）に加えて本規約の内容に同意した上で、本APIを利用するものとします。
+２．本APIの利用を開始した時点で、お客様が本規約に同意したものとみなされ、お客様と当社との間で本規約を内容とする利用契約が成立します。
+３．本APIを法人が利用する場合には、ご利用条件等について個別にご確認の上、別途契約が必要となりますので、別途お問合せください。
+４．本APIを個人が商用に利用する場合には、別途お問合せください。
+第３条（禁止事項）
+お客様は、次に掲げる行為をしてはならないものとします。
+（１）本APIを、本規約又はA.I.VOICE製品EULAに違反する利用形態で利用し、又は第三者に利用をさせること（利用方法の公開を含む）
+（２）複数人が同時に使用又は共有可能なコンピュータ上で本APIを使用すること、及び、本APIをサーバー利用（複数人が同時に接続し利用することが可能な状態）すること(Discord サーバー上のテキストチャンネルの投稿を Discord Bot を介して ボイスチャンネルで読み上げる用途を除く)
+（３）その他、当社が不適切であると合理的に判断する行為
+第４条（本規約の変更）
+当社は、法令等を遵守するために必要なとき、お客様の一般の利益に適合するとき、当社が合理的に必要と考えるときには、本規約を変更する旨及び変更後の内容並びにその変更の効力発生時期を、お客様への通知、インターネットの利用その他の適切な方法により周知することによって、本規約の内容を変更することができるものとします。
+2022年2月22日　規約制定
+2023年3月15日　改訂

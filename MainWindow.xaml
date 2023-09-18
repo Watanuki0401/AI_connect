@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:test_AIVOICE"
         mc:Ignorable="d"
-        Title="AI connect" Height="450" Width="800" Closed="Window_Closed" Loaded="Window_Loaded">
+        Title="AI connect" Height="104" Width="422" Closed="Window_Closed" Loaded="Window_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />

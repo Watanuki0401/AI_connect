@@ -25,6 +25,9 @@ namespace test_AIVOICE.host {
 
         public void Addque(string text) {
             Queue.TryAdd(text);
+            if (_Controler.Status == HostStatus.NotConnected) {
+                _Controler.Connect();
+            }
             if (_Controler.Status == HostStatus.Idle) {
                 Receiver();
             }
